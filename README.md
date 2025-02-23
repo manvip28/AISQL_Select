@@ -52,8 +52,11 @@ npm install
 #### 3. Install backend dependencies
 Navigate to the Flask server directory and install the required Python modules.
 ```sh
-pip install flask langchain langchain_google_genai
+pip install flask flask_cors google-generativeai
 ```
+
+## Note
+In `server.py`, replace `[API_KEY]` with your own Gemini API Key.
 
 ## Usage
 
@@ -84,8 +87,7 @@ This will start the React development server.
 ## API Integration
 The backend uses LangChain, Google Generative AI, and the Gemini API to process user queries dynamically.
 
-## Note
-In `server.py`, replace `[API_KEY]` with your own Gemini API Key.
+
 
 
 
