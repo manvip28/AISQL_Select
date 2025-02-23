@@ -1,4 +1,4 @@
-# ai_sql_generator
+# AI SQL Generator
 
 ## Problem Statement
 In large-scale databases, users often struggle to retrieve relevant information due to complex schemas and the need for precise SQL queries. Many users, especially those without SQL expertise, find it challenging to extract data efficiently. This project aims to solve this issue by developing an AI-powered system that dynamically selects the most relevant table from a database schema based on a user's natural language query. By leveraging LangChain and the Gemini API, the system converts natural language queries into optimized SQL statements, streamlining the data retrieval process for users.
