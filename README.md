@@ -83,3 +83,8 @@ The backend uses LangChain, Google Generative AI, and the Gemini API to process 
 ## Note
 In `server.py`, replace `[API_KEY]` with your own Gemini API Key.
 
+## Outputs
+<img width="1035" alt="image" src="https://github.com/user-attachments/assets/1227c8ef-3c03-44e4-badd-573776d92bf6" />
+<img width="1043" alt="image" src="https://github.com/user-attachments/assets/9b99c011-acd4-4d3f-96d3-d2e335cf71a4" />
+
+
