@@ -13,7 +13,7 @@ This project is a full-stack application built using React for the frontend, Nod
 ## Tech Stack
 - **Frontend:** React (Created using Create React App)
 - **Backend:** Node.js, Flask
-- **AI Integration:** LangChain, Google Generative AI, Gemini API
+- **AI Integration:**  Gemini API
 - **Debugging:** ChatGPT
 
 ## Project Structure
