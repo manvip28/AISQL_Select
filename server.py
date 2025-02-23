@@ -7,7 +7,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 CORS(app)
 
-genai.configure(api_key="AIzaSyBGMf8hEEfdWqeMgK98GD2_xQrlwcrJ8-k")
+genai.configure(api_key="[API_KEY]")
 
 def generate_gemini_prompt(tables, nl_query):
     schema_json = json.dumps(tables, indent=2)
