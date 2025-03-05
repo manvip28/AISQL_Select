@@ -8,7 +8,7 @@ In large-scale databases, users often struggle to retrieve relevant information 
 <img width="1043" alt="image" src="https://github.com/user-attachments/assets/9b99c011-acd4-4d3f-96d3-d2e335cf71a4" />
 
 ## Overview
-This project is a full-stack application built using React for the frontend, Node.js for the backend, and Flask for handling AI-powered queries using LangChain and Google Generative AI.
+This project is a full-stack application built using React for the frontend, Node.js for the backend, and Flask for handling AI-powered queries using Google Generative AI.
 
 ## Tech Stack
 - **Frontend:** React (Created using Create React App)
