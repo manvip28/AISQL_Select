@@ -85,7 +85,7 @@ This will start the React development server.
 5. The results are formatted into a table and sent back to the frontend for display.
 
 ## API Integration
-The backend uses LangChain, Google Generative AI, and the Gemini API to process user queries dynamically.
+The backend uses Flask and the Gemini API to process user queries dynamically.
 
 
 
