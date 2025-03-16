@@ -12,10 +12,13 @@ genai.configure(api_key="[API_KEY]")
 def generate_gemini_prompt(tables, nl_query):
     schema_json = json.dumps(tables, indent=2)
     return f"""
-    You are an AI SQL expert. Given a **database schema** in JSON format and a **natural language query**, generate:
-    
-    1️⃣ A **filtered schema** (only relevant tables & columns).  
-    2️⃣ A **valid SQL query**.
+    You are an AI SQL expert. Your task is to generate **syntactically correct** SQL queries based on a given **database schema** and **natural language query**.
+
+    ### **Instructions:**
+    1️⃣ **Ensure correctness**: The generated SQL **must be valid** and should not contain syntax errors.  
+    2️⃣ **Use only relevant tables & columns**: Filter out unnecessary schema details.  
+    3️⃣ **Follow best practices**: Use proper **JOINs, WHERE clauses, GROUP BY, ORDER BY, and LIMIT** when necessary.  
+    4️⃣ **Verify syntax**: If unsure, construct queries in **ANSI SQL** to maximize compatibility. 
 
     **Schema:**
     ```json
